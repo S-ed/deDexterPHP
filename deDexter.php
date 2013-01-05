@@ -43,9 +43,10 @@ function searchKey($data){
         foreach (explode("&", $data) as $param) {
                 $param_arr = preg_split("/=/", $param, 2);
                 if( $param_arr[0] == "val" ){
-  				return base64_decode($param_arr[1]);
-				}
+  			return base64_decode($param_arr[1]);
+		}
         }
+        return false;
 }
 
 function deDexter($data, $key){
