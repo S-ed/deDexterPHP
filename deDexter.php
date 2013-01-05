@@ -1,4 +1,11 @@
 <?php
+/*
+** deDexterPHP
+** by Alex Mak (S-ed)
+** This is a simple PHP script that is designed to decode the data affected by Dexter malware
+** Based on original Ruby scrip by Josh Grunzweig
+** https://github.com/SpiderLabs/Malware_Analysis/blob/master/Ruby/Dexter/dexter_decode.rb
+*/
  
 function xor_decode($text, $key) {
   $key_length = strlen($key);
