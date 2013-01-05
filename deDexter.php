@@ -1,6 +1,6 @@
 <?php
 /*
-** deDexterPHP
+** deDexterPHP (06.01.2013)
 ** by Alexey Mak (S-ed)
 ** This is a simple PHP script that is designed to decode the data affected by Dexter malware
 ** Based on original Ruby scrip by Josh Grunzweig
